@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1000px;
+    width: 100%;
     max-width: 1000px;
 }
 
@@ -54,7 +54,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1000px;
+    width: 100%;
     max-width: 1000px;
     gap: 40px
 }
@@ -93,7 +93,6 @@ header {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    padding: 30px 0 50px;
 }
 
 .info {
@@ -104,6 +103,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 40px;
+    padding: 30px 0 50px;
 }
 
 .info h2 {
@@ -137,4 +137,35 @@ header {
 
 .info-box p {
     color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.quote-container {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 0 110px;
+}
+
+.quotation {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: bold;
 }
