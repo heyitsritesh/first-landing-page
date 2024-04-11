@@ -169,3 +169,43 @@ header {
     font-size: 26px;
     font-weight: bold;
 }
+
+.end-cta {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.end-cta-inner {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 30px;
+    color: white;
+}
+
+.cta-text h3 {
+    font-size: 26px;
+    margin-bottom: -10px;
+}
+
+.cta-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.end-cta button {
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 7px 35px;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: 600;
+}
